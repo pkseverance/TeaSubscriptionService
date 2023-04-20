@@ -8,7 +8,7 @@ This is a REST API for a hypothetical tea based e-commerce website, written in R
 
 # Getting Started
 
-1. Clone the repository to your local machine:
+1. Clone the repository:
    ```
    git clone https://github.com/pkseverance/TeaSubscriptionService.git
    ```

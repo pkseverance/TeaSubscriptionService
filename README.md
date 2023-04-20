@@ -5,3 +5,24 @@ This is a REST API for a hypothetical tea based e-commerce website, written in R
 # Database Schema
 
 ![image](https://user-images.githubusercontent.com/78667757/233504518-3c40d8ae-0de7-4cee-83df-3423bb01b074.png)
+
+# Getting Started
+
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/pkseverance/TeaSubscriptionService.git
+   ```
+
+2. Install the necessary gems:
+   ```
+   bundle install
+   ```
+
+3. Set up the database:
+   ```
+   rails db:{create,migrate,seed}
+   ```
+
+4. Start the server:
+   ```
+   rails server

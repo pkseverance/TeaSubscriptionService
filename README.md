@@ -21,8 +21,13 @@ This is a REST API for a hypothetical tea based e-commerce website, written in R
 3. Set up the database:
    ```
    rails db:{create,migrate,seed}
+   ```  
+   
+4. Run the test suite (optional):
+   ```
+   bundle exec rspec
    ```
 
-4. Start the server:
+5. Start the server:
    ```
    rails server

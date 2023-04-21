@@ -37,4 +37,4 @@ This is a REST API for a hypothetical tea based e-commerce website, written in R
 
 | Endpoint | Method | Description |
 | -------- | ------ | ----------- |
-| /api/v1/customer_subscriptions |
+| `/api/v1/customer_subscriptions` | POST | Sign up a customer for a subscription. A json body consisting of both the `customer_id` and `subscription_id` must be passed in this request. |

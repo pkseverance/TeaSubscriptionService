@@ -9,9 +9,8 @@ This is a REST API for a hypothetical tea based e-commerce website, written in R
 # Getting Started
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/pkseverance/TeaSubscriptionService.git
-   ```
+
+   `git clone https://github.com/pkseverance/TeaSubscriptionService.git`
 
 2. Install the necessary gems:
    ```

@@ -9,9 +9,9 @@ This is a REST API for a hypothetical tea based e-commerce website, written in R
 # Getting Started
 
 1. Clone the repository:
-
-   `git clone https://github.com/pkseverance/TeaSubscriptionService.git`
-
+   ```
+   git clone https://github.com/pkseverance/TeaSubscriptionService.git
+   ```
 2. Install the necessary gems:
    ```
    bundle install
@@ -30,10 +30,10 @@ This is a REST API for a hypothetical tea based e-commerce website, written in R
 5. Start the server:
    ```
    rails server
+   ```
    
-
 # Endpoints
 
 | Endpoint | Method | Description |
 | -------- | ------ | ----------- |
-| `/api/v1/customer_subscriptions` | POST | Sign up a customer for a subscription. A json body consisting of both the `customer_id` and `subscription_id` must be passed in this request. The `status` will be set to `true` by default. |
+| `/api/v1/customer_subscriptions` | POST | Sign up a customer for a subscription. A json body consisting of both the `customer_id` and `subscription_id` must be passed in this request. The customer subscription `status` will be set to `true` by default. |

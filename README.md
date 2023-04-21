@@ -31,3 +31,10 @@ This is a REST API for a hypothetical tea based e-commerce website, written in R
 5. Start the server:
    ```
    rails server
+   
+
+# Endpoints
+
+| Endpoint | Method | Description |
+| -------- | ------ | ----------- |
+| /api/v1/customer_subscriptions |

@@ -1,24 +1,33 @@
-# README
+# Tea Subscription API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a REST API for a hypothetical tea based e-commerce website, written in Ruby On Rails. The application allows users to sign up for a mail-order subscription service conisting of either monthly or yearly deliveries of different teas.
 
-Things you may want to cover:
+# Database Schema
 
-* Ruby version
+![image](https://user-images.githubusercontent.com/78667757/233504518-3c40d8ae-0de7-4cee-83df-3423bb01b074.png)
 
-* System dependencies
+# Getting Started
 
-* Configuration
+1. Clone the repository:
+   ```
+   git clone https://github.com/pkseverance/TeaSubscriptionService.git
+   ```
 
-* Database creation
+2. Install the necessary gems:
+   ```
+   bundle install
+   ```
 
-* Database initialization
+3. Set up the database:
+   ```
+   rails db:{create,migrate,seed}
+   ```  
+   
+4. Run the test suite (optional):
+   ```
+   bundle exec rspec
+   ```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5. Start the server:
+   ```
+   rails server

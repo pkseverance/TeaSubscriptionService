@@ -37,3 +37,4 @@ This is a REST API for a hypothetical tea based e-commerce website, written in R
 | Endpoint | Method | Description |
 | -------- | ------ | ----------- |
 | `/api/v1/customer_subscriptions` | POST | Sign up a customer for a subscription. A json body consisting of both the `customer_id` and `subscription_id` must be passed in this request. The customer subscription `status` will be set to `true` by default. |
+| `/api/v1/customer_subscriptions/:id` | PATCH | Update the `status` of an existing customer description with either `true` or `false`. A json body conisting of `customer_id`, `subscription_id`, and `status`, must be passed in this response. |
